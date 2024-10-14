@@ -25,8 +25,6 @@ public class WebTest {
         driver.findElement(By.name("q")).sendKeys("duck");
         driver.findElement(By.name("q")).sendKeys(Keys.ENTER);
 
-
-
     }
 
     @AfterMethod
