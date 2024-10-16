@@ -24,9 +24,9 @@ private ChromeOptions options;
     }
     @AfterMethod
     public void quit(){
-//        if(driver != null){
-//            driver.quit();
-//        }
+        if(driver != null){
+            driver.quit();
+        }
     }
     @Test
     public void getTitle(){
